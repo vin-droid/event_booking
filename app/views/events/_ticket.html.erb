@@ -1,4 +1,4 @@
 <%= form_for(@ticket,:url=>events_path) do |ff|%>
-	<%=ff.text_field :time,:class=>'datepicker'%>
+	<%=ff.text_field :time,:class=>'datetimepicker'%>
 	<%= ff.text_field :audience%>
 <%end%>

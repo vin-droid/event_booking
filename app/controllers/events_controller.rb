@@ -9,6 +9,9 @@ before_action :set_event ,only:[:edit,:show,:update]
   def show
 
   end
+  def create
+    byebug
+  end
 
   def new
   	@event = Event.new
